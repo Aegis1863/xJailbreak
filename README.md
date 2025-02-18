@@ -63,17 +63,3 @@ python text.py --special_place "test/" -w 1 --cuda 0 --target "qwen" --weight_pa
 ``````
 
 We also recommend that you modify the `--cuda` parameter. After the attack is completed, the statistical results are in `log/test`.
-
-## Cite
-
-```
-@misc{lee2025xjailbreakrepresentationspaceguided,
-      title={xJailbreak: Representation Space Guided Reinforcement Learning for Interpretable LLM Jailbreaking},
-      author={Sunbowen Lee and Shiwen Ni and Chi Wei and Shuaimin Li and Liyang Fan and Ahmadreza Argha and Hamid Alinejad-Rokny and Ruifeng Xu and Yicheng Gong and Min Yang},
-      year={2025},
-      eprint={2501.16727},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2501.16727},
-}
-```
